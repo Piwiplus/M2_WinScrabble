@@ -17,6 +17,9 @@ namespace WinScrabble
         int nbMots = 0;                     // nombre de mots proposés par le joueur
         string[] lesMots = new string[10];  // mots proposés par le joueur
         int joueurDebut = 0; //joueur qui commence
+        string meilMot = "";
+        int meilPoint = 0;
+
         public FrmScrabble()
         {
             
@@ -25,8 +28,8 @@ namespace WinScrabble
 
         private void button1_Click(object sender, EventArgs e)
         {
-            random rdm = new Random();   
-            joueurDebut = rdm.next(3);
+            Random rdm = new Random();   
+            joueurDebut = rdm.Next(3);
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -74,20 +77,27 @@ namespace WinScrabble
             string leMot = txtSaisieMotJ1.Text;
             int nbPoints = Utilitaire.PointsMot(leMot);
             totalPoints = nbPoints + totalPoints;
-            txtPointsJ1.Text = nbPoints.ToString();
-            totPoints.Text = totalPoints.ToString();
+            txtPointJ1.Text = nbPoints.ToString();
+            txtScoreJ1.Text = totalPoints.ToString();
+            lesMots[nbMots] = leMot;
+            nbMots++;
+            if (nbPoints > meilPoint)
+            {
+                meilMot = leMot;
+            }
+
+            labelSaisieJ1.Text = "\"Nombre de mots saisis : " + nbMots + " Mot(s)";
+            if (nbMots == 10)
+            {
+                label7.Text = "votre meilleur mot est " + meilMot + " !";
+                foreach (string Mot in lesMots)
+                {
+                    listResult.AppendText(Mot + "\n");
+                }
+            }
         }
 
-        private void btnOkJ2_Click(object sender, EventArgs e)
-        {
-            string leMot = txtMot.Text;
-            int nbPoints = Utilitaire.PointsMot(leMot);
-            totalPoints = nbPoints + totalPoints;
-            txtPoints.Text = nbPoints.ToString();
-            totPoints.Text = totalPoints.ToString();
-        }
-
-        private void txtLettre1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        private void labelSaisieJ1_Click(object sender, EventArgs e)
         {
 
         }

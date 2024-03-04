@@ -134,7 +134,7 @@ namespace WinScrabble
             // txtJoueur1
             // 
             this.txtJoueur1.Location = new System.Drawing.Point(252, 34);
-            this.txtJoueur1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtJoueur1.Margin = new System.Windows.Forms.Padding(4);
             this.txtJoueur1.Name = "txtJoueur1";
             this.txtJoueur1.Size = new System.Drawing.Size(185, 22);
             this.txtJoueur1.TabIndex = 3;
@@ -142,7 +142,7 @@ namespace WinScrabble
             // txtJoueur2
             // 
             this.txtJoueur2.Location = new System.Drawing.Point(252, 78);
-            this.txtJoueur2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtJoueur2.Margin = new System.Windows.Forms.Padding(4);
             this.txtJoueur2.Name = "txtJoueur2";
             this.txtJoueur2.Size = new System.Drawing.Size(185, 22);
             this.txtJoueur2.TabIndex = 4;
@@ -150,7 +150,7 @@ namespace WinScrabble
             // btnCommencerJoueur
             // 
             this.btnCommencerJoueur.Location = new System.Drawing.Point(669, 78);
-            this.btnCommencerJoueur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCommencerJoueur.Margin = new System.Windows.Forms.Padding(4);
             this.btnCommencerJoueur.Name = "btnCommencerJoueur";
             this.btnCommencerJoueur.Size = new System.Drawing.Size(120, 28);
             this.btnCommencerJoueur.TabIndex = 5;
@@ -166,9 +166,9 @@ namespace WinScrabble
             this.groupBoxStart.Controls.Add(this.label3);
             this.groupBoxStart.Controls.Add(this.txtJoueur1);
             this.groupBoxStart.Location = new System.Drawing.Point(16, 54);
-            this.groupBoxStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxStart.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxStart.Name = "groupBoxStart";
-            this.groupBoxStart.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxStart.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxStart.Size = new System.Drawing.Size(824, 129);
             this.groupBoxStart.TabIndex = 6;
             this.groupBoxStart.TabStop = false;
@@ -182,9 +182,9 @@ namespace WinScrabble
             this.groupBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBox4.Location = new System.Drawing.Point(855, 54);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(315, 129);
             this.groupBox4.TabIndex = 11;
             this.groupBox4.TabStop = false;
@@ -206,9 +206,9 @@ namespace WinScrabble
             this.groupBox5.Controls.Add(this.label23);
             this.groupBox5.Controls.Add(this.listResult);
             this.groupBox5.Location = new System.Drawing.Point(16, 743);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox5.Size = new System.Drawing.Size(1147, 178);
             this.groupBox5.TabIndex = 13;
             this.groupBox5.TabStop = false;
@@ -229,7 +229,7 @@ namespace WinScrabble
             // txtMeilMot
             // 
             this.txtMeilMot.Location = new System.Drawing.Point(397, 86);
-            this.txtMeilMot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMeilMot.Margin = new System.Windows.Forms.Padding(4);
             this.txtMeilMot.Name = "txtMeilMot";
             this.txtMeilMot.Size = new System.Drawing.Size(175, 22);
             this.txtMeilMot.TabIndex = 30;
@@ -252,7 +252,7 @@ namespace WinScrabble
             // listResult
             // 
             this.listResult.Location = new System.Drawing.Point(631, 23);
-            this.listResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listResult.Margin = new System.Windows.Forms.Padding(4);
             this.listResult.Multiline = true;
             this.listResult.Name = "listResult";
             this.listResult.Size = new System.Drawing.Size(435, 147);
@@ -276,9 +276,9 @@ namespace WinScrabble
             this.groupBoxJ1J2.Controls.Add(this.groupBox2);
             this.groupBoxJ1J2.Controls.Add(this.label4);
             this.groupBoxJ1J2.Location = new System.Drawing.Point(16, 191);
-            this.groupBoxJ1J2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxJ1J2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxJ1J2.Name = "groupBoxJ1J2";
-            this.groupBoxJ1J2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxJ1J2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxJ1J2.Size = new System.Drawing.Size(1153, 508);
             this.groupBoxJ1J2.TabIndex = 15;
             this.groupBoxJ1J2.TabStop = false;
@@ -305,9 +305,9 @@ namespace WinScrabble
             this.groupBox3.Controls.Add(this.txtLettre1Bis);
             this.groupBox3.Controls.Add(this.labelJoueur2);
             this.groupBox3.Location = new System.Drawing.Point(611, 59);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(535, 442);
             this.groupBox3.TabIndex = 15;
             this.groupBox3.TabStop = false;
@@ -355,7 +355,7 @@ namespace WinScrabble
             // txtScoreJ2
             // 
             this.txtScoreJ2.Location = new System.Drawing.Point(157, 324);
-            this.txtScoreJ2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtScoreJ2.Margin = new System.Windows.Forms.Padding(4);
             this.txtScoreJ2.Name = "txtScoreJ2";
             this.txtScoreJ2.Size = new System.Drawing.Size(123, 22);
             this.txtScoreJ2.TabIndex = 29;
@@ -373,7 +373,7 @@ namespace WinScrabble
             // txtPointJ2
             // 
             this.txtPointJ2.Location = new System.Drawing.Point(157, 268);
-            this.txtPointJ2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPointJ2.Margin = new System.Windows.Forms.Padding(4);
             this.txtPointJ2.Name = "txtPointJ2";
             this.txtPointJ2.Size = new System.Drawing.Size(123, 22);
             this.txtPointJ2.TabIndex = 27;
@@ -381,13 +381,12 @@ namespace WinScrabble
             // btnOkJ2
             // 
             this.btnOkJ2.Location = new System.Drawing.Point(405, 206);
-            this.btnOkJ2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOkJ2.Margin = new System.Windows.Forms.Padding(4);
             this.btnOkJ2.Name = "btnOkJ2";
             this.btnOkJ2.Size = new System.Drawing.Size(79, 28);
             this.btnOkJ2.TabIndex = 26;
             this.btnOkJ2.Text = "Ok";
             this.btnOkJ2.UseVisualStyleBackColor = true;
-            this.btnOkJ2.Click += new System.EventHandler(this.btnOkJ2_Click);
             // 
             // label19
             // 
@@ -412,7 +411,7 @@ namespace WinScrabble
             // txtSaisieMotJ2
             // 
             this.txtSaisieMotJ2.Location = new System.Drawing.Point(157, 209);
-            this.txtSaisieMotJ2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSaisieMotJ2.Margin = new System.Windows.Forms.Padding(4);
             this.txtSaisieMotJ2.Name = "txtSaisieMotJ2";
             this.txtSaisieMotJ2.Size = new System.Drawing.Size(185, 22);
             this.txtSaisieMotJ2.TabIndex = 23;
@@ -420,7 +419,7 @@ namespace WinScrabble
             // txtLettre7Bis
             // 
             this.txtLettre7Bis.Location = new System.Drawing.Point(405, 135);
-            this.txtLettre7Bis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre7Bis.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre7Bis.Name = "txtLettre7Bis";
             this.txtLettre7Bis.Size = new System.Drawing.Size(32, 22);
             this.txtLettre7Bis.TabIndex = 22;
@@ -428,7 +427,7 @@ namespace WinScrabble
             // txtLettre6Bis
             // 
             this.txtLettre6Bis.Location = new System.Drawing.Point(364, 135);
-            this.txtLettre6Bis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre6Bis.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre6Bis.Name = "txtLettre6Bis";
             this.txtLettre6Bis.Size = new System.Drawing.Size(32, 22);
             this.txtLettre6Bis.TabIndex = 21;
@@ -436,7 +435,7 @@ namespace WinScrabble
             // txtLettre5Bis
             // 
             this.txtLettre5Bis.Location = new System.Drawing.Point(323, 135);
-            this.txtLettre5Bis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre5Bis.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre5Bis.Name = "txtLettre5Bis";
             this.txtLettre5Bis.Size = new System.Drawing.Size(32, 22);
             this.txtLettre5Bis.TabIndex = 20;
@@ -444,7 +443,7 @@ namespace WinScrabble
             // txtLettre4Bis
             // 
             this.txtLettre4Bis.Location = new System.Drawing.Point(281, 135);
-            this.txtLettre4Bis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre4Bis.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre4Bis.Name = "txtLettre4Bis";
             this.txtLettre4Bis.Size = new System.Drawing.Size(32, 22);
             this.txtLettre4Bis.TabIndex = 19;
@@ -452,7 +451,7 @@ namespace WinScrabble
             // txtLettre3Bis
             // 
             this.txtLettre3Bis.Location = new System.Drawing.Point(240, 135);
-            this.txtLettre3Bis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre3Bis.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre3Bis.Name = "txtLettre3Bis";
             this.txtLettre3Bis.Size = new System.Drawing.Size(32, 22);
             this.txtLettre3Bis.TabIndex = 18;
@@ -460,7 +459,7 @@ namespace WinScrabble
             // txtLettre2Bis
             // 
             this.txtLettre2Bis.Location = new System.Drawing.Point(199, 135);
-            this.txtLettre2Bis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre2Bis.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre2Bis.Name = "txtLettre2Bis";
             this.txtLettre2Bis.Size = new System.Drawing.Size(32, 22);
             this.txtLettre2Bis.TabIndex = 17;
@@ -468,7 +467,7 @@ namespace WinScrabble
             // txtLettre1Bis
             // 
             this.txtLettre1Bis.Location = new System.Drawing.Point(157, 135);
-            this.txtLettre1Bis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre1Bis.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre1Bis.Name = "txtLettre1Bis";
             this.txtLettre1Bis.Size = new System.Drawing.Size(32, 22);
             this.txtLettre1Bis.TabIndex = 16;
@@ -506,9 +505,9 @@ namespace WinScrabble
             this.groupBox2.Controls.Add(this.txtLettre1);
             this.groupBox2.Controls.Add(this.labelJoueur1);
             this.groupBox2.Location = new System.Drawing.Point(8, 59);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(535, 442);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
@@ -522,6 +521,7 @@ namespace WinScrabble
             this.labelSaisieJ1.Size = new System.Drawing.Size(186, 16);
             this.labelSaisieJ1.TabIndex = 33;
             this.labelSaisieJ1.Text = "Nombre de mots saisis : 0 Mot";
+            this.labelSaisieJ1.Click += new System.EventHandler(this.labelSaisieJ1_Click);
             // 
             // label15
             // 
@@ -556,7 +556,7 @@ namespace WinScrabble
             // txtScoreJ1
             // 
             this.txtScoreJ1.Location = new System.Drawing.Point(157, 324);
-            this.txtScoreJ1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtScoreJ1.Margin = new System.Windows.Forms.Padding(4);
             this.txtScoreJ1.Name = "txtScoreJ1";
             this.txtScoreJ1.Size = new System.Drawing.Size(123, 22);
             this.txtScoreJ1.TabIndex = 29;
@@ -574,7 +574,7 @@ namespace WinScrabble
             // txtPointJ1
             // 
             this.txtPointJ1.Location = new System.Drawing.Point(157, 268);
-            this.txtPointJ1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPointJ1.Margin = new System.Windows.Forms.Padding(4);
             this.txtPointJ1.Name = "txtPointJ1";
             this.txtPointJ1.Size = new System.Drawing.Size(123, 22);
             this.txtPointJ1.TabIndex = 27;
@@ -582,7 +582,7 @@ namespace WinScrabble
             // btnOkJ1
             // 
             this.btnOkJ1.Location = new System.Drawing.Point(405, 206);
-            this.btnOkJ1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOkJ1.Margin = new System.Windows.Forms.Padding(4);
             this.btnOkJ1.Name = "btnOkJ1";
             this.btnOkJ1.Size = new System.Drawing.Size(79, 28);
             this.btnOkJ1.TabIndex = 26;
@@ -613,7 +613,7 @@ namespace WinScrabble
             // txtSaisieMotJ1
             // 
             this.txtSaisieMotJ1.Location = new System.Drawing.Point(157, 209);
-            this.txtSaisieMotJ1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSaisieMotJ1.Margin = new System.Windows.Forms.Padding(4);
             this.txtSaisieMotJ1.Name = "txtSaisieMotJ1";
             this.txtSaisieMotJ1.Size = new System.Drawing.Size(185, 22);
             this.txtSaisieMotJ1.TabIndex = 23;
@@ -621,7 +621,7 @@ namespace WinScrabble
             // txtLettre7
             // 
             this.txtLettre7.Location = new System.Drawing.Point(405, 135);
-            this.txtLettre7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre7.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre7.Name = "txtLettre7";
             this.txtLettre7.Size = new System.Drawing.Size(32, 22);
             this.txtLettre7.TabIndex = 22;
@@ -629,7 +629,7 @@ namespace WinScrabble
             // txtLettre6
             // 
             this.txtLettre6.Location = new System.Drawing.Point(364, 135);
-            this.txtLettre6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre6.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre6.Name = "txtLettre6";
             this.txtLettre6.Size = new System.Drawing.Size(32, 22);
             this.txtLettre6.TabIndex = 21;
@@ -637,7 +637,7 @@ namespace WinScrabble
             // txtLettre5
             // 
             this.txtLettre5.Location = new System.Drawing.Point(323, 135);
-            this.txtLettre5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre5.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre5.Name = "txtLettre5";
             this.txtLettre5.Size = new System.Drawing.Size(32, 22);
             this.txtLettre5.TabIndex = 20;
@@ -645,7 +645,7 @@ namespace WinScrabble
             // txtLettre4
             // 
             this.txtLettre4.Location = new System.Drawing.Point(281, 135);
-            this.txtLettre4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre4.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre4.Name = "txtLettre4";
             this.txtLettre4.Size = new System.Drawing.Size(32, 22);
             this.txtLettre4.TabIndex = 19;
@@ -653,7 +653,7 @@ namespace WinScrabble
             // txtLettre3
             // 
             this.txtLettre3.Location = new System.Drawing.Point(240, 135);
-            this.txtLettre3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre3.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre3.Name = "txtLettre3";
             this.txtLettre3.Size = new System.Drawing.Size(32, 22);
             this.txtLettre3.TabIndex = 18;
@@ -661,7 +661,7 @@ namespace WinScrabble
             // txtLettre2
             // 
             this.txtLettre2.Location = new System.Drawing.Point(199, 135);
-            this.txtLettre2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre2.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre2.Name = "txtLettre2";
             this.txtLettre2.Size = new System.Drawing.Size(32, 22);
             this.txtLettre2.TabIndex = 17;
@@ -669,11 +669,10 @@ namespace WinScrabble
             // txtLettre1
             // 
             this.txtLettre1.Location = new System.Drawing.Point(157, 135);
-            this.txtLettre1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLettre1.Margin = new System.Windows.Forms.Padding(4);
             this.txtLettre1.Name = "txtLettre1";
             this.txtLettre1.Size = new System.Drawing.Size(32, 22);
             this.txtLettre1.TabIndex = 16;
-            this.txtLettre1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txtLettre1_MaskInputRejected);
             // 
             // labelJoueur1
             // 
