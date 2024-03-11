@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace WinScrabble
@@ -62,5 +63,13 @@ namespace WinScrabble
             return pts;
         }
 
+        public static string RandomChar()
+        {
+            Thread.Sleep(1);
+            string alphabet = "abcdefghijklmnopqrstuvwxyz";
+            Random rand = new Random((int)DateTime.Now.Ticks);
+
+            return Char.ToString(alphabet[rand.Next(0, 26)]).ToUpper();
+        }
     }
 }
